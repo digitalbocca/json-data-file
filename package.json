@@ -1,0 +1,27 @@
+{
+  "name": "json-data-file",
+  "version": "0.1.0",
+  "description": "Ler e Gravar dados em um arquivo JSON.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digitalbocca/json-data-file.git"
+  },
+  "keywords": [
+    "node",
+    "json",
+    "dados",
+    "gravar",
+    "ler",
+    "arquivo"
+  ],
+  "author": "Gabriel Bertola Bocca - gabriel at estudiodigitalbocca.com.br",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/digitalbocca/json-data-file/issues"
+  },
+  "homepage": "https://github.com/digitalbocca/json-data-file#readme"
+}
