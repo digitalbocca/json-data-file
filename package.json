@@ -23,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/digitalbocca/json-data-file/issues"
   },
-  "homepage": "https://github.com/digitalbocca/json-data-file#readme"
+  "homepage": "https://github.com/digitalbocca/json-data-file#readme",
+  "devDependencies": {
+    "standard": "^10.0.3"
+  },
+  "dependencies": {
+    "moment": "^2.19.2"
+  }
 }
