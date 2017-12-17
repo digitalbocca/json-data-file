@@ -7,6 +7,11 @@
 
 ## CHANGELOG ##
 
+**Mudanças na v0.4.0**
+
+- Adicionado chalk para a formatação da saída de texto.
+- Adicionado json-format para a formatação correta do arquivo.
+
 **Mudanças na v0.3.0**
 
 - Adicionado Badge Code Climate.

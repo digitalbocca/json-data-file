@@ -2,26 +2,28 @@
 
 const fs = require('fs')
 const moment = require('moment')
+const chalk = require('chalk')
+const jsonFormat = require('json-format')
 const arquivo = fs.readFileSync('./log.json', 'utf8')
 const parser = JSON.parse(arquivo)
 
-console.log('Lendo o arquivo...')
+console.log(chalk.yellow('Lendo o arquivo...'))
 
 moment.locale('pt-br')
 const chave = moment()
 const valor = moment(chave).format('LLLL')
 
-console.log('Gerando novo valor: ', valor)
+console.log(chalk.bold('Gerando novo valor: '), valor)
 
 parser.logs[chave] = valor
 
 fs.unlinkSync('./log.json')
 
-console.log('Apagando Arquivo Antigo.')
+console.log(chalk.red('Apagando Arquivo Antigo.'))
 
-const stringToFile = JSON.stringify(parser)
+const stringToFile = jsonFormat(parser, { type: 'space', size: 2 })
 
 fs.writeFileSync('./log.json', stringToFile, 'utf8')
 
-console.log('Gerado novo arquivo de Log.')
-console.log('(c)2017 - Estúdio Digital Bocca')
+console.log(chalk.green('Gerado novo arquivo de Log.'))
+console.log(chalk.blue('(c)2017 - Estúdio Digital Bocca'))
