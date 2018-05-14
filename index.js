@@ -1,9 +1,10 @@
 'use strict'
 
-const fs = require('fs')
-const moment = require('moment')
 const chalk = require('chalk')
+const fs = require('fs')
 const jsonFormat = require('json-format')
+const moment = require('moment')
+
 const arquivo = fs.readFileSync('./log.json', 'utf8')
 const parser = JSON.parse(arquivo)
 

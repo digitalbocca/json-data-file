@@ -1,12 +1,17 @@
 # json-data-file
 
-## v0.8.0
+## v0.9.0
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/a713e75e6f2eec946512/maintainability)](https://codeclimate.com/github/digitalbocca/json-data-file/maintainability)
 
 > Ler e Gravar dados em um arquivo JSON.
 
 ## CHANGELOG
+
+### Mudanças na v0.9.0
+
+- Melhoria no código fonte.
+- Atualização de dependências.
 
 ### Mudanças na v0.8.0
 
