@@ -1,6 +1,6 @@
 {
   "name": "json-data-file",
-  "version": "0.10.2",
+  "version": "0.10.3",
   "description": "Ler e Gravar dados em um arquivo JSON.",
   "main": "index.js",
   "config": {
@@ -36,11 +36,11 @@
   "homepage": "https://github.com/digitalbocca/json-data-file#readme",
   "devDependencies": {
     "cross-var-no-babel": "^1.2.0",
-    "standard": "^14.3.1"
+    "standard": "^14.3.4"
   },
   "dependencies": {
-    "chalk": "^3.0.0",
+    "chalk": "^4.0.0",
     "json-format": "^1.0.1",
-    "moment": "^2.24.0"
+    "moment": "^2.26.0"
   }
 }

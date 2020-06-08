@@ -1,6 +1,6 @@
 # json-data-file
 
-## v0.10.2
+## v0.10.3
 
 ### LEGADO: Este codigo não receberá atualizações
 
@@ -9,6 +9,10 @@
 > Ler e Gravar dados em um arquivo JSON.
 
 ## CHANGELOG
+
+### Mudanças na v0.10.3
+
+- Atualização de segurança.
 
 ### Mudanças na v0.10.2
 

@@ -27,4 +27,4 @@ const stringToFile = jsonFormat(parser, { type: 'space', size: 2 })
 fs.writeFileSync('./log.json', stringToFile, 'utf8')
 
 console.log(chalk.green('Gerado novo arquivo de Log.'))
-console.log(chalk.blue('(c)2018-2019 Estúdio Digital Bocca'))
+console.log(chalk.blue('(c)2018-2020 Estúdio Digital Bocca'))
