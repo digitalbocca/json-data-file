@@ -1,6 +1,6 @@
 {
   "name": "json-data-file",
-  "version": "0.10.3",
+  "version": "0.10.4",
   "description": "Ler e Gravar dados em um arquivo JSON.",
   "main": "index.js",
   "config": {
@@ -39,8 +39,8 @@
     "standard": "^14.3.4"
   },
   "dependencies": {
-    "chalk": "^4.0.0",
+    "chalk": "^4.1.0",
     "json-format": "^1.0.1",
-    "moment": "^2.26.0"
+    "moment": "^2.27.0"
   }
 }
