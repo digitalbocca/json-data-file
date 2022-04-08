@@ -41,6 +41,6 @@
   "dependencies": {
     "chalk": "^4.1.0",
     "json-format": "^1.0.1",
-    "moment": "^2.27.0"
+    "moment": "^2.29.2"
   }
 }
